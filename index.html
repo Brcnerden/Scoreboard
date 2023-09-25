@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <main id="cards">
+      <div class="card">
+        <div>
+          <div>Takım A</div>
+          <div>
+            <div id="score1" class="score">0</div>
+            <div class="buttons">
+              <button onclick="Score(1,score1)">Artış</button>
+              <button onclick="Score(-1,score1)">Azalış</button>
+              <button id="button1" onclick="correction(score1)">
+                Düzeltme
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div>
+          <div>Takım B</div>
+          <div>
+            <div id="score2" class="score">0</div>
+            <div class="buttons">
+              <button onclick=" Score(1,score2)">Artış</button>
+              <button onclick="Score(-1,score2)">Azalış</button>
+              <button id="button2" onclick="correction(score2)">
+                Düzeltme
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>

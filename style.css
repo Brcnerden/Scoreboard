@@ -1,0 +1,25 @@
+.card {
+  width: 300px;
+  height: 200px;
+  border: 2px solid black;
+}
+
+#cards {
+  display: flex;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.score {
+  width: 100px;
+  height: 60px;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+}
